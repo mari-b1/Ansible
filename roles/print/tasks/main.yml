@@ -1,0 +1,4 @@
+---
+- name: Print data from file
+  command: cat /tmp/test_data.file
+

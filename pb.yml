@@ -1,0 +1,9 @@
+---
+- name: Write Hello World to a file
+  hosts: localhost
+  roles:
+   - make_dir
+   - touch_file
+   - hello
+   - echo
+   - print  

@@ -1,0 +1,5 @@
+---
+- name: Write Hello World to a file
+  lineinfile:
+    path: /home/marina/ansible/test/file
+    line: Hello World

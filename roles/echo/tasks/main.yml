@@ -1,0 +1,3 @@
+---
+- name: Fill some data to file
+  shell: echo $RANDOM > /tmp/test_data.file
